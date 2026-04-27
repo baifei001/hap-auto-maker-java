@@ -1,3 +1,24 @@
 /target/
-logs/
+/logs/
 *.log
+
+# Credentials - NEVER commit these
+config/credentials/ai_auth.json
+config/credentials/organization_auth.json
+config/credentials/web_auth.json
+config/credentials/auth_config.py
+config/credentials/login_credentials.py
+
+# Output & test data
+/output/
+/test-run/
+test_spec.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+{
+  "schema_version": "workflow_requirement_v1",
+  "meta": { "language": "zh" },
+  "app": { "name": "端到端测试应用-0426", "group_ids": "" },
+  "worksheets": { "business_context": "这是一个端到端测试应用，用于验证 Java 自动化创建流程", "requirements": "客户信息表（包含姓名、电话、邮箱字段），订单表（包含订单编号、金额、状态字段），两表通过客户ID关联" },
+  "views": { "enabled": true },
+  "pages": { "enabled": false },
+  "execution": { "dry_run": false, "fail_fast": true }
+}

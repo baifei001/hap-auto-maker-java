@@ -1,0 +1,19 @@
+execute-requirements --spec-json=<spec文件路径> [OPTIONS]
+
+Run the full HAP workflow pipeline (Wave 1-7)
+
+Options:
+  --dry-run                Dry run without actual execution
+  --fail-fast              Stop on first failure
+  --force-replan           Force replanning even if checkpoints exist
+  --language=<lang>        Language: zh or en (default: zh)
+
+Examples:
+  Execute a spec:
+    execute-requirements --spec-json=data/outputs/requirement_specs/spec.json
+
+  Dry run:
+    execute-requirements --spec-json=spec.json --dry-run
+
+  English app:
+    execute-requirements --spec-json=spec.json --language=en

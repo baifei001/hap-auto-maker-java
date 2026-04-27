@@ -1,0 +1,14 @@
+{
+  "schema_version": "workflow_requirement_v1",
+  "meta": { "language": "zh" },
+  "app": { "name": "Java端到端测试应用", "group_ids": "" },
+  "worksheets": {
+    "enabled": true,
+    "business_context": "测试Java迁移后的完整功能，创建一个简单的客户订单管理系统",
+    "requirements": "创建两个工作表：客户表（客户名称、联系方式、地址）、订单表（订单编号、客户关联、金额、下单日期）",
+    "max_worksheets": 2
+  },
+  "views": { "enabled": true },
+  "pages": { "enabled": true },
+  "execution": { "dry_run": false, "fail_fast": true }
+}

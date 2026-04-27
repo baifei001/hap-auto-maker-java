@@ -1,0 +1,52 @@
+{
+  "schema_version" : "workflow_requirement_v1",
+  "meta" : {
+    "created_at" : "2026-04-23T22:18:19.750358100+08:00",
+    "source" : "java_cli_chat",
+    "conversation_summary" : "用户需求创建一个客户管理应用，包含客户表和订单表，客户表有客户名称、联系电话字段，订单表有订单号、金额字段。",
+    "language" : "zh"
+  },
+  "app" : {
+    "target_mode" : "create_new",
+    "name" : "客户管理应用",
+    "group_ids" : "",
+    "icon_mode" : "ai_match",
+    "color_mode" : "random",
+    "navi_style" : {
+      "enabled" : true,
+      "pcNaviStyle" : 1
+    }
+  },
+  "worksheets" : {
+    "enabled" : true,
+    "business_context" : "用于管理客户信息和订单信息，支持客户名称、联系电话以及订单号、金额等数据记录。",
+    "requirements" : "需要两个工作表：客户表和订单表。客户表包含客户名称、联系电话字段；订单表包含订单号、金额字段。",
+    "icon_update" : {
+      "enabled" : true,
+      "refresh_auth" : false
+    },
+    "layout" : {
+      "enabled" : true,
+      "requirements" : "",
+      "refresh_auth" : false
+    }
+  },
+  "views" : {
+    "enabled" : true
+  },
+  "view_filters" : {
+    "enabled" : true
+  },
+  "mock_data" : {
+    "enabled" : true,
+    "dry_run" : false,
+    "trigger_workflow" : false
+  },
+  "execution" : {
+    "fail_fast" : true,
+    "dry_run" : false
+  },
+  "pages" : {
+    "enabled" : true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "workflow_requirement_v1",
+  "meta": { "language": "zh" },
+  "app": { "name": "Java迁移测试应用", "group_ids": "group-a" },
+  "worksheets": { "enabled": true, "business_context": "测试Java迁移后的端到端功能", "requirements": "创建一个简单的工作表用于测试" },
+  "views": { "enabled": true },
+  "pages": { "enabled": true },
+  "execution": { "dry_run": true, "fail_fast": true }
+}
